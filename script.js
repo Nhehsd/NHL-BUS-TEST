@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+    getArrivalTimes();
+});
+
 function getArrivalTimes() {
     const kentGardensStation = "Kent Gardens";
     const resultsDiv = document.getElementById("results");
